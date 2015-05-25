@@ -24,6 +24,10 @@
  *  SOFTWARE.
  *
  * */
+
+#ifndef AOP_CPP11_WRAPPER_H
+#define AOP_CPP11_WRAPPER_H
+
 #include <iostream>
 #include <functional>
 
@@ -112,4 +116,6 @@ struct Wrapper<T, Object, Probe>{
 };
 
 }   // namespace aop.
+
+#endif  // AOP_CPP11_WRAPPER_H
 
